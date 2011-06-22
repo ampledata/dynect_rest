@@ -196,7 +196,7 @@ class DynectRest
       end
       e.response
     end
-    parse_response(JSON.parse(response_body.to_s))
+    parse_response(JSON.parse(response_body))
   end
 
   def parse_response(response)
